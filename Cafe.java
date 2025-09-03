@@ -34,10 +34,3 @@ class Tea
     }
 }
 
-class Matcha
-{
-    void brew() 
-    {
-        System.out.println("Brewing matcha...");
-    }
-}
