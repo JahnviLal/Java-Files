@@ -9,6 +9,11 @@ public class Cafe
         Tea tea = new Tea();
         tea.brew();
         System.out.println("Tea is ready!");
+
+        Matcha matcha = new Matcha();
+        matcha.brew();
+        System.out.println("Matcha is ready!");
+
     }
     
 }
@@ -26,5 +31,13 @@ class Tea
     void brew() 
     {
         System.out.println("Brewing tea...");
+    }
+}
+
+class Matcha
+{
+    void brew() 
+    {
+        System.out.println("Brewing matcha...");
     }
 }
