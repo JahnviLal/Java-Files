@@ -30,7 +30,7 @@ class Tea
 {
     void brew() 
     {
-        System.out.println("Brewing tea and coffee...");
+        System.out.println("Brewing tea...");
     }
 }
 
